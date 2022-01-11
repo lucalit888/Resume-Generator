@@ -1,0 +1,167 @@
+.title{
+    text-align: center;
+}
+
+#resumeinput{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#leave{
+  width: 13%;
+  color: black;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  margin: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#sub{
+  width: 13%;
+  color: black;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  margin: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px !important;
+}
+
+#inputheader{
+  padding-left: 10%;
+}
+
+i{
+  padding-left: 10%;
+  cursor: pointer;
+}
+
+li{
+  list-style-type:none;
+}
+
+#dropdown{
+   padding-left: 10%;
+}
+
+#bigtext{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 150px;
+}
+
+.emessage{
+  padding-left: 10%;
+  color: #87ff2a
+}
+
+#selectedp{
+  padding-left: 10%;
+  color: #FF69B4
+}
+
+#leave:hover{
+  background: #B80f0A;
+  background-size: 600% 600%;
+  -webkit-animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+  -moz-animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+  animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+
+}
+
+#sub:hover{
+  background: #009620;
+  background-size: 600% 600%;
+  -webkit-animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+  -moz-animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+  animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+}
+
+@-webkit-keyframes BackgroundAnim{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundAnim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes BackgroundAnim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+@keyframes shake {
+  0% {
+      transform: translateX(0px) rotate(0deg);
+  }
+
+  5% {
+      transform: translateX(-4px) rotate(-4deg);
+  }
+
+  10% {
+      transform: translateX(-2px) rotate(-2deg);
+  }
+
+  15% {
+      transform: translateX(4px) rotate(4deg);
+  }
+
+  20% {
+      transform: translateX(2px) rotate(2deg);
+  }
+
+  25% {
+      transform: translateX(0px) rotate(0deg);
+  }
+  30% {
+      transform: translateX(-4px) rotate(-4deg);
+  }
+
+  35% {
+      transform: translateX(-2px) rotate(-2deg);
+  }
+
+  40% {
+      transform: translateX(4px) rotate(4deg);
+  }
+
+  45% {
+      transform: translateX(2px) rotate(2deg);
+  }
+
+  50% {
+      transform: translateX(0px) rotate(0deg);
+  }
+  100% {
+      transform: translateX(0px) rotate(0deg);
+  }
+
+}

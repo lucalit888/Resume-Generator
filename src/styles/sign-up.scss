@@ -1,0 +1,226 @@
+.signin_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.signupinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+    h2{
+        margin:0;
+    }
+}
+
+
+.centeringform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+
+    p {
+        margin-top: 10px;
+        font-size: 80%;
+        margin-bottom: 60px;
+    }
+}
+
+// CSS styles for form adapted from https://codepen.io/ainalem/pen/GRqPwoz
+
+.form {
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    background-color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: -30px;
+}
+  
+.title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+  
+.subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: -20px;
+}
+  
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+  
+.ic1 {
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+  
+.ic2 {
+    margin-top: 30px;
+}
+  
+.input {
+    background-color:white;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 2px;
+    width: 100%;
+}
+
+.form input[type=text], input[type=password] {
+    height: 45px;
+    font-size: 120%;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+  
+.cut {
+    background-color: black;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 76px;
+}
+
+.cutlong {
+    width: 120px;
+}
+  
+.cut-short {
+    width: 50px;
+}
+  
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+    background-color: rgb(43, 43, 43);
+}
+  
+.placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+}
+  
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+  
+.input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+}
+  
+.input:focus ~ .placeholder {
+    color: rgb(3, 190, 3);
+}
+  
+.submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    // outline: 0;
+    text-align: center;
+    width: 100%;
+}
+  
+.submit:active {
+    background-color: #06b;
+}
+  
+.errormsg{
+    position: relative;
+    margin-top: 5px !important;
+    z-index: 999999999999;
+    margin: 0;
+    font-size: 0.7em;
+    justify-content: right;
+    text-align: center;
+    color: rgb(199, 4, 4);
+}
+
+.errormsg1{
+    position: relative;
+    margin-top: 7px !important;
+    z-index: 999999999999;
+    margin: 0;
+    font-size: 0.7em;
+    justify-content: center;
+    text-align: center;
+}
+
+.errormsg2{
+    position: absolute;
+    margin-top: 9px !important;
+    z-index: 999999999999;
+    margin: 0;
+    font-size: 0.7em;
+    justify-content: center;
+    text-align: center;
+}
+
+.signup-button{
+    display: flex;
+    margin-top: 5vh !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.signup-button:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    font-weight: bolder;
+}
+

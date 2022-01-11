@@ -1,0 +1,224 @@
+.profile-name-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+
+    button {
+        margin:0;
+        padding-left:2px !important;
+        padding-right:2px !important;
+        width:auto;
+        margin-left: 2px !important;
+    }
+}
+
+.sign-button {
+    padding-left:2px !important;
+    padding-right:2px !important;
+    width: auto;
+    border-radius:5px;
+}
+
+.sign-button:hover {
+    padding-left:2px !important;
+    padding-right:2px !important;
+    width: auto;
+    border-radius:5px;
+}
+
+.profile-name-section div{
+    margin-right: 3vw;
+}
+
+.profile-name-email {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.profile-info-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.editing {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.editingname {
+    display: flex;
+    flex-direction: row;
+
+    .col {
+        padding-right: 15px;
+    }
+
+    .textbox {
+        width: 15vw;
+        height: auto !important; 
+    }
+}
+
+// adapted from: https://www.html-code-generator.com/css/textbox-style
+.col {
+	margin-top: 12px;
+    display: inline-block;
+    position: relative;
+}
+
+.emailbox{
+    width: 32vw !important;
+    height: auto !important; 
+}
+
+.textbox {
+    padding: 2px 4px;
+    font-size: 2vw !important;
+    color: white;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    border: 1px solid #ccc;
+    position: relative;
+    background: transparent;
+}
+.textbox ~ .focus-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ededed;
+    transition: 0.3s;
+    z-index: -1;
+}
+.textbox:focus ~ .focus-bg {
+    transition: 0.3s;
+    width: 100%;
+}
+.textbox:focus {
+    outline: none;
+}
+
+.editing button {
+    width: auto;
+}
+
+// button style adapted from https://fdossena.com/?p=html5cool/buttons/i.frag
+
+.save-button{
+    display:inline-block;
+    padding:0.35em 0.9em !important;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color: #000000;
+    text-align:center;
+    transition: all 0.2s;
+}
+.save-button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    font-weight: 500;
+}
+
+#actual-btn{
+    display:inline-block;
+    padding:0.35em 0.9em !important;
+    border:0.1em solid #FFFFFF;
+    margin:1em 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color: #000000;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+#actual-btn:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    font-weight: 500;
+}
+
+
+.editing button {
+    margin-top: 10vh;
+}
+
+@media all and (max-width:30em){
+     a.button1{
+     display:block;
+     margin:0.4em auto;
+}
+}
+
+.profile-img {
+    margin-bottom: 20px;
+}
+
+.imageuploadbundle {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    input[type=file] {
+        display: flex;
+        flex-direction: column;
+        margin-top:20px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-left:120px;
+    }
+}
+
+.profile-page {
+    margin-top:100px;
+}
+
+.profile-user-info {
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-info {
+    margin-left:0;
+}
+
+.view-portfolios {
+    margin-top: 0;
+}
+
+.profile-info-name {
+    margin-right: 0 !important;
+}
+
+.profile-info-email {
+    margin-right: 0 !important;
+}
+
+
+.profile-name-email {
+    margin: 0 !important;
+}

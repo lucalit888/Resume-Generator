@@ -1,0 +1,155 @@
+.signin-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+}
+
+.form-signin {
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+}
+
+*:focus {
+    outline: none;
+  }
+
+// adapted from: https://codepen.io/KovJonas/pen/BoPOPY
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+
+.signin-page input[type="text"]:focus,
+.signin-page input[type="password"]:focus {
+    border-bottom: 3px solid rgb(1, 187, 1);
+    color: rgb(1, 187, 1);;
+    transition: 0.2s ease;
+}
+
+
+
+.sign-in-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height:40px;
+    padding:2px;
+    margin-top:20px;
+    border: 3px solid white !important;
+    font-size: 100%;    
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    h2 {
+        margin-top:.5rem;
+    }
+}
+
+.sign-in-button:hover {
+    background-color: white;
+    color:black;
+    transition: 0.4s ease;
+    font-weight: bolder !important;
+    // border: 3px solid rgb(1, 187, 1) !important;
+    background: linear-gradient(273deg, #009620,  #b1ffc2, #009620);
+    background-size: 600% 600%;
+    -webkit-animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+    -moz-animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+    animation: BackgroundAnim 4s ease infinite, shake 1s infinite;
+}
+
+@-webkit-keyframes BackgroundAnim{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundAnim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes BackgroundAnim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+@keyframes shake {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    5% {
+        transform: translateX(-4px) rotate(-4deg);
+    }
+
+    10% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    15% {
+        transform: translateX(4px) rotate(4deg);
+    }
+
+    20% {
+        transform: translateX(2px) rotate(2deg);
+    }
+
+    25% {
+        transform: translateX(0px) rotate(0deg);
+    }
+    30% {
+        transform: translateX(-4px) rotate(-4deg);
+    }
+
+    35% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    40% {
+        transform: translateX(4px) rotate(4deg);
+    }
+
+    45% {
+        transform: translateX(2px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(0px) rotate(0deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+}

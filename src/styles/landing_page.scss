@@ -1,0 +1,196 @@
+.landing-page {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+    padding-bottom: 3em;
+}
+
+.header-container {
+    margin-top: -50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-image: url("https://i.postimg.cc/Cxx2xxy5/ezgif-com-gif-maker-22.gif");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px !important;
+    border-radius: 15px;
+
+    p {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 1px;
+    }
+
+    .button {
+        margin-top: 100px;
+        background-color: white;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-size: 1.5em;
+        font-family: "Raleway", sans-serif;
+        transition: all 0.5s;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 15px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      margin-bottom: 5vw;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+
+    div {
+        flex-direction: column;
+        margin-top: 100px !important;
+    }
+
+    p {
+        font-size: 1.5em;
+        margin-bottom: 1px;
+    }
+    margin-bottom: 10vw;
+}
+
+.image {
+    width: 35%;
+    height: 35%;
+    min-width: 35%;
+    min-height:35%
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+
+    div {
+        flex-direction: column;
+    }
+    p {
+        font-size: 1.5em;
+        margin-bottom: 1px;
+    }
+
+    margin-bottom: 50px;
+}
+
+// adapted from: https://fdossena.com/?p=html5cool/buttons/i.frag
+
+.button {
+    margin-top: 120px !important;
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    border-radius: 5px;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: "Raleway", sans-serif;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 100px;
+  }
+
+
+img:hover {
+   transform: scale(1.02); 
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+    transform: scale(1.05); 
+
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+p {
+    margin: 2;
+}
+
+.header-container svg {
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.header-container a {
+    margin-top: 0 !important;
+    margin-bottom: 10px;
+}
+
+.startbutton {
+    margin-top:80px !important;
+}
+
+.downwardarrow {
+    color: white !important;
+    text-decoration: none;
+
+    :hover {
+        color: white !important;
+        text-decoration: none;
+    }
+}
+
+.downwardarrow:hover {
+    transform: scale(1.03);
+}
+
+.textpart {
+    padding-left: 20px;
+}
+
+.profilebuttons{
+    margin-top: 20px !important;
+}
